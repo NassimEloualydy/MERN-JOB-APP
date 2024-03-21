@@ -8,8 +8,8 @@ function Menu() {
   return (
     <>
     <div onClick={NavigateUrl.bind(this,"/")} className="itemMenu">Home</div>
+    <div onClick={NavigateUrl.bind(this,"/SignIn")} className="itemMenu">Sign In</div>
     <div onClick={NavigateUrl.bind(this,"/Login")} className="itemMenu">Login</div>
-    <div className="itemMenu">Sign In</div>
     </>
   )
 }
