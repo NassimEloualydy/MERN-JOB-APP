@@ -13,9 +13,6 @@ function Home() {
               </span>
               <br />
               <br />
-            <h6 className="fw-bolder">
-              Menu
-              </h6>
               <Menu/>
         </div>
         <span className="iconmenu" onClick={MenuSwitch.bind(this,true)}>
